@@ -17,15 +17,6 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    {
-      "Kestrel": {
-        "Limits": {
-          "MaxConcurrentConnections": 100,
-          "MaxConcurrentUpgradedConnections": 100
-        },
-        "DisableStringReuse": true
-      }
-    },
     "TestNetCalcWebApi": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
